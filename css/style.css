@@ -1,0 +1,258 @@
+body{
+  position: relative;
+  overflow-x: hidden;
+}
+.banner{
+  color: #fff;
+  background-color: #2C7FA7;
+  width:auto;
+  text-align:center;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 10px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.reverse-text{
+  display: inline-block;
+  -moz-transform: scale(-1,1);
+  -webkit-transform: scale(-1,1);
+  transform: scale(-1,1);
+  /*color: #595959;*/
+  opacity: 0.2;
+}
+.reverse-text2{
+  display: inline-block;
+  -moz-transform: scale(-1,1);
+  -webkit-transform: scale(-1,1);
+  transform: scale(-1,1);
+  /*color: #595959;*/
+  opacity: 0.5;
+}
+.make-flex{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.standard-font{
+  font-family: 'Quicksand', sans serif;
+  font-size: 18px;
+}
+.bold-it{
+  font-weight:bold;
+}
+
+.home{
+  width: auto;
+  margin-top: -20px;
+
+}
+
+.projects{
+  width: auto;
+  
+}
+
+h1{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
+  margin-bottom: -10px;
+}
+
+h2{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+}
+h3{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+p{
+  font-family: 'Catamaran', sans-serif;
+  font-size: 16px;
+}
+
+.caption{
+  margin-top: -20px;
+  margin-bottom: -15px;
+  
+}
+.caption-title{
+  text-align: center;
+}
+
+.center-bottom{
+  flex: display;
+  align-items: flex-end;
+}
+
+.thumbnail a:hover, a:visited, a:link, a:active{
+   text-decoration: none !important;
+  color: black;
+}
+.thumbnail a:hover{
+  color: #c3e0ef;
+}
+
+.thumbnail-img-max-height{
+  max-height: 300px;
+}
+
+a:hover{
+  color: #c3e0ef;
+}
+
+
+.center-text{
+  text-align: center;
+}
+.icon-margins{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* Gradient color1 - color2 - color1 */
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #f3fafe, #22ADF1, #f3fafe);
+}
+
+.intro-box{
+  padding-top: 15px;
+  
+}
+
+.reverse-text{
+  display: inline-block;
+  -moz-transform: scale(-1,1);
+  -webkit-transform: scale(-1,1);
+  transform: scale(-1,1);
+  /*color: #595959;*/
+  opacity: 0.2;
+}
+.reverse-text2{
+  display: inline-block;
+  -moz-transform: scale(-1,1);
+  -webkit-transform: scale(-1,1);
+  transform: scale(-1,1);
+  /*color: #595959;*/
+  opacity: 0.5;
+}
+
+.my-anchor{
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+.heading-space{
+  padding-left: 10px;
+}
+.thumbnail{
+  max-width: 450px;
+}
+
+.intro-text{
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-style: groove;
+  border-radius: 3px;
+  border-color: #2C7FA7;
+  background-color:#f2f2f2;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAVBAR STUFF DO NOT TOUCH */
+.navbar-default {
+  background-color: #51a2c9;
+  border-color: #2c7fa7;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #262a4d;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #262a4d;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #262a4d;
+  background-color: #2c7fa7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #262a4d;
+  background-color: #2c7fa7;
+}
+.navbar-default .navbar-toggle {
+  border-color: #2c7fa7;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #2c7fa7;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #262a4d;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #262a4d;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #262a4d;
+    background-color: #2c7fa7;
+  }
+}
+
+
