@@ -8,6 +8,10 @@ body{
   margin: 0 auto;
 }
 
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+      max-height: 400px;
+}
+
 .banner{
   color: #fff;
   background-color: #2C7FA7;
