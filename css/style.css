@@ -2,6 +2,11 @@ body{
   position: relative;
   overflow-x: hidden;
 }
+
+img{
+  max-height: 300px;
+}
+
 .banner{
   color: #fff;
   background-color: #2C7FA7;
