@@ -4,14 +4,12 @@ body{
 }
 
 .carousel{
-  height: 500px;
-  width: 700px !important;
-  overflow: hidden;
+  background-color: rgba(95, 153, 171, 0.58);
 }
-
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    width: 100%;
-    height: auto;
+.caro-img{
+  width: auto;
+  height: 600px;
+  max-height: 600px;
 }
 
 .banner{
