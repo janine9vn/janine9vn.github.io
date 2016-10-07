@@ -4,13 +4,18 @@ body{
 }
 
 #caro-pics{
-  max-width: 500px;
-  margin: 0 auto;
+
+}
+.carousel-inner{
+    max-height: 500px !important;
+  width: 100%
 }
 
+/*
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
       max-height: 400px;
 }
+*/
 
 .banner{
   color: #fff;
