@@ -5,6 +5,7 @@ body{
 
 .carousel{
   max-height: 500px;
+  width: 700px;
   overflow: hidden;
 }
 
