@@ -18,7 +18,6 @@
 <body data-spy="scroll" data-target="#navbar-test">
   <div class="container-fluid" id="top">
  
-    <!--NavBar Code-->
     <nav class="nav navbar navbar-default navbar-fixed-top personal-navbar" id="navbar-test">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -41,8 +40,6 @@
       </div>
     </nav>
   </div>
-  <!--End of NavBar -->
-  
   
   <div>
     <div class="home my-anchor" id="top">
@@ -93,15 +90,15 @@
       <div class="row make-flex center-bottom">
         <div class="col-xs-6 make-flex">
           <div class="thumbnail">
-            <a href="http://codepen.io/janine9vn/full/OXkAXo/" target="_blank"><img src="http://i.imgur.com/enX2cLI.png" alt="Image of Random Quote Generator Project" class="img-responsive hidden-xs thumbnail-img-max-height"></a>
-            <div class="caption"><a href="http://codepen.io/janine9vn/full/wWEBVQ/" target="_blank"><h3 class="caption-title">Random Quote Generator</h3></a>
+            <a href="http://codepen.io/janine9vn/full/OXkAXo/" target="_blank"><img src="https://i.imgur.com/enX2cLI.png" alt="Image of Random Quote Generator Project" class="img-responsive hidden-xs thumbnail-img-max-height"></a>
+            <div class="caption"><a href="https://janine9vn.github.io/RandomQuoteGenerator/" target="_blank"><h3 class="caption-title">Random Quote Generator</h3></a>
               <p class="center-text">A page that will generate a random quote on design. You can get a new quote or tweet it.</p>
             </div>
           </div>
         </div>
         <div class="col-xs-6 make-flex">
           <div class="thumbnail">
-            <a href="http://codepen.io/janine9vn/full/NAOxZz/" target="_blank"><img src="http://i.imgur.com/yu6eXOc.png" alt="Image of the Local Weather Project" class="hidden-xs img-responsive thumbnail-img-max-height"></a>
+            <a href="http://codepen.io/janine9vn/full/NAOxZz/" target="_blank"><img src="https://i.imgur.com/yu6eXOc.png" alt="Image of the Local Weather Project" class="hidden-xs img-responsive thumbnail-img-max-height"></a>
             <div class="caption">
               <a href="#top"><h3 class="caption-title">The Local Weather</h3></a>
               <p class="center-text"> A minimal-esque project displaying local weather based on IP.</p>
@@ -109,34 +106,37 @@
           </div>
         </div>
       </div>
-      
-      <div class="row make-flex center-bottom">
-        <div class="col-xs-6 make-flex">
-          <div class="thumbnail">
-            <a href="http://codepen.io/janine9vn/full/OXkAXo/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/2/23/George_Charles_Beresford_-_Virginia_Woolf_in_1902.jpg" alt="Image of Virginia Woolf" class="img-responsive hidden-xs thumbnail-img-max-height"></a>
-            <div class="caption"><a href="http://codepen.io/janine9vn/full/OXkAXo/" target="_blank"><h3 class="caption-title">Virginia Woolf Tribute Page </h3></a>
-
-              <p class="center-text"> A tribute page coded from scratch using Bootstrap framework. </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 make-flex">
-          <div class="thumbnail">
-            <a href="#top"><img src="http://www.premiereproduzioni.com/img.jpg" alt="Work In Progress written on a stikey note" class="hidden-xs img-responsive thumbnail-img-max-height"></a>
-            <div class="caption">
-              <a href="#top"><h3 class="caption-title">Personal Portfolio</h3></a>
-              <p class="center-text"> A personal portfolio to showcase my work. (You're looking at it!)</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div><h3 style="text-align:center;">More projects to come!</h3> </div>
     </div>
     
     <hr class="style-one">  
     <div class="my-anchor" id="photos">
       <h2 class="heading-space"><a href="#photos">Photos</a></h2>
-      <h3 class="text-center">Section coming soon!</h3>
+      <div id="caro-pics" class="carousel-slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#caro-pics" data-slide-to="0" class="active"></li>
+          <li data-target="#caro-pics" data-slide-to="1"></li>
+          <li data-target="#caro-pics" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="https://i.imgur.com/dIZRWpr.jpg">
+          </div>
+          <div class="item">
+            <img src="https://i.imgur.com/Mt8Y5Oh.jpg">
+          </div>
+          <div class="item">
+            <img src="https://i.imgur.com/ecjPykr.jpg">
+          </div>
+        </div>
+        <a class="left carousel-control" href="#caro-pics" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#caro-pics" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hideen="true"></span>
+          <span class="sr-only">Next</span>
+        </a>    
+      </div>
     </div>
     
     <hr class="style-one">
