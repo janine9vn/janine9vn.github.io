@@ -43,8 +43,6 @@ body{
 }
 .make-flex{
   display:flex;
-  align-items: center;
-  justify-content: center;
 }
 .standard-font{
   font-family: 'Quicksand', sans serif;
@@ -62,7 +60,7 @@ body{
 
 .projects{
   width: auto;
-  
+
 }
 
 h1{
@@ -90,14 +88,14 @@ p{
 .caption{
   margin-top: -20px;
   margin-bottom: -15px;
-  
+
 }
 .caption-title{
   text-align: center;
 }
 
 .center-bottom{
-  flex: display;
+  display: flex;
   align-items: flex-end;
 }
 
@@ -137,7 +135,7 @@ hr.style-one {
 
 .intro-box{
   padding-top: 15px;
-  
+
 }
 
 .reverse-text{
@@ -183,7 +181,7 @@ hr.style-one {
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 5px;
-  
+
 }
 
 
@@ -268,5 +266,3 @@ hr.style-one {
     background-color: #2c7fa7;
   }
 }
-
-
